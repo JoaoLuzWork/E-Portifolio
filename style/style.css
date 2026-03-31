@@ -1,0 +1,158 @@
+
+:root
+{
+    --black:#000000;
+    --background:#F7F7F7;
+    --yellow: #FFC570;
+    --white: #FFFFFF;
+    --brown:#854836;
+}
+
+*
+{
+    position: relative;   
+    margin: 0%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+    
+    /*Items behave and alignment*/
+    background-color: var(--background);
+}
+
+a:active
+{
+    color: var(--Blue);
+}
+
+h1
+{
+
+}
+
+/*Header syle*/
+header
+{
+    /*behave and position*/
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    z-index: 10;
+    margin-top: 0;
+    padding: 0%; 
+
+    
+    /*size*/
+    width: 100%;
+    height: 80px;
+
+    /*Styling*/
+    color: var(--black);
+}
+
+.navBar
+{
+    /*behave and position*/
+    display: flex;
+
+    /*size*/
+    width: 100%;
+    height: 50px;
+    
+    /*Items behave*/
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+
+    
+}
+
+.navBar h1 
+{
+    font-family: "Lora", serif;
+    font-style: bold;
+}
+
+.navBar a
+{
+    font-family: "Libre Baskerville", serif;
+    color: var(--black);
+     /*Styling*/
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.navItems
+{
+    display: flex;
+    align-content: end;
+    justify-content: space-evenly;
+    gap: 10%;
+    width: 40%;
+    
+    
+}
+.navItems a:hover
+{
+    font-size: 180%;
+    transition-delay: 100ms;
+}
+
+
+/*Body Home*/
+
+.yellowBack
+{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    margin: 0%;
+    width: 100%;
+}
+.yellowBack img
+{
+    margin-right: 0%;
+    position: absolute;
+    width: 60%;
+}
+
+.main-home-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 10%;
+    padding-left: 3%;
+    width: 40%;
+    height: 100px;
+}
+
+.main-home-div h1
+{
+    font-size: 50px;
+    font-family: "Lobster", sans-serif;
+}
+
+.main-home-div pre
+{
+    font-size: 40px;
+    font-family: "Libre Baskerville", serif;
+
+}
+
+/*footer*/
+
+footer
+{
+    background-image: linear-gradient(var(--darkblue), var(--darkcolor));
+    box-shadow: 0px 0px 5px 1px var(--darkblue);
+    height: 115px;
+    width: 100%;
+    z-index: 12;
+}
