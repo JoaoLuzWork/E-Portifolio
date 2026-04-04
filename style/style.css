@@ -7,9 +7,14 @@
     --brown:#854836;
 }
 
+html
+{
+     width: 100%;
+    height: 100%;
+}
+
 *
 {
-    position: relative;   
     margin: 0%;
 }
 
@@ -20,8 +25,6 @@ a
 
 body
 {
-    width: 100%;
-    height: 100%;
     margin: 0%;
     padding: 0%;
     
@@ -113,12 +116,10 @@ header
     display: flex;
     justify-content: end;
     position: absolute;
-    margin: 0%;
     width: 100%;
 }
 .yellowBack img
 {
-    margin-right: 0%;
     position: absolute;
     width: 55%;
 }
@@ -136,55 +137,112 @@ header
 
 .main-home-div h1
 {
-    font-size: 50px;
+    font-size: clamp(1rem, 4vw, 4rem);
     font-family: "Lobster", sans-serif;
 }
 
 .main-home-div pre
 {
-    font-size: 40px;
+    margin-top: 5%;
+    font-size: clamp(20px, 2.5vw, 4rem);
     font-family: "Libre Baskerville", serif;
-
 }
+
+
+/*Body About*/
+
+.mainDivConfig
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bigImgAbout
+{
+    display: flex;
+    padding-top: 5%;
+    width: 90%;
+    flex-direction: row;
+}
+
+.bigImgAbout img
+{
+    width: 50%;
+}
+
+.textBoxImgAbout
+{
+    margin-left: 1%;
+}
+
+
+.layoutStandardInfo
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layoutStandardInfo div
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.subDivImg
+{
+    f
+}
+
+
+/*footer*/
 
 .socialMedias
 {
     display: flex;
-
-    margin-left: 25%;
     align-items: center;
-    width: 54%;
+    margin-left: 10px;
+    width: 20%;
     justify-content: space-between;
 }
 
 .instaLogo
 {
-    width: 45%;
+    width: 50px;
 }
 
 .linkedinLogo
 {
-    width: 55%;
+    width: 60px;
 }
 
 .emailLogo
 {
-    width: 60%;
+    width: 50px;
+    margin-left: 4%;
+}
+#footer
+{
+    margin-left: 50%;
+    margin-top: 28%;
+}
+#footer P
+{
+    margin-left: 0%;
 }
 
-
-
-
-/*footer*/
-
-footer
+a:hover .instaLogo
 {
-    display: flex;
-    background-image: linear-gradient(var(--darkblue), var(--darkcolor));
-    box-shadow: 0px 0px 5px 1px var(--darkblue);
-    height: 115px;
-    width: 100%;
-    margin-top: 90%;
-    z-index: 12;
-    
+    width: 55px;
+}
+
+a:hover .linkedinLogo
+{
+    width: 65px;
+}
+a:hover .emailLogo
+{
+    width: 60px;
 }
