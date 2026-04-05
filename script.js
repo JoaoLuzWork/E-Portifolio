@@ -8,7 +8,7 @@ header.innerHTML = `
         <div class="navItems">
             <a href="index.html">Home</a> 
             <a href="about.html">About</a> 
-            <a href="Qualifications.html">Qualifications</a> 
+            <a href="qualifications.html">Qualifications</a> 
             <a href="hobbies.html">Hobbies</a> 
         </div>
     </div>`;

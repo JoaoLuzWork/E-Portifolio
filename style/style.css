@@ -172,6 +172,7 @@ header
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 5%;
 }
 
 .mainDivConfig h1
@@ -183,12 +184,11 @@ header
 {
     display: flex;
     padding: 0%;
-    margin-top: 5%;
     margin-bottom: 100px;
     background: var(--white);
     border-radius: 30px 200px 200px 30px;
     box-shadow: 0px 5px 10px 1px var(--grey);
-    width: 70%;
+    width: 80%;
     flex-direction: row;
 }
 
@@ -229,8 +229,7 @@ header
     display: flex;
     flex-direction: row;
     background-color: var(--white);
-    width: 60%;
-    height: 400px;
+    width: 70%;
     border-radius: 0px 20px 20px 0px ;
     box-shadow: 0px 5px 10px 5px var(--grey);
 }
@@ -245,9 +244,30 @@ header
     flex-direction: column;
 }
 
+.Small
+{
+    height: 200px;
+}
+
+.Smaller
+{
+    height: 130px;
+}
+.Small .subDivText
+{
+    padding: 1%;
+    gap: 10px;
+}
+
+.Smaller .subDivText
+{
+    padding: 1%;
+    gap: 10px;
+}
+
 .subDivText p
 {
-    font-size: clamp(18px, 20px, 24px);
+    font-size: clamp(16px, 20px, 24px);
     text-align: justify;
 }
 
@@ -268,7 +288,7 @@ header
 {
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 20px;
     width: 20%;
     justify-content: space-between;
 }
@@ -292,13 +312,21 @@ header
 {
     align-self: center;
     margin-left: 44%;
-    margin-top: 26%;
 }
+
+
 #footer P
 {
     margin-left: 0%;
 }
-
+.mainFoot
+{
+    margin-top: 100px;
+}
+.homeFoot
+{
+    margin-top: 30%;
+}
 .footerImg
 {
  width: 100%;
