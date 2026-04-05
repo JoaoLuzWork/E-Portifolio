@@ -209,12 +209,25 @@ header
 
 .textBoxImgAbout p
 {
-   padding-top: 20px;
+    padding-top: 20px;
     font-size: clamp(20px, 22px, 28px);
-   
-   
 }
 
+/*qualifications*/
+
+.ExtraCuricularDiv
+{
+    display: flex;
+    width: 80%;
+    padding: 1%;
+    background: var(--white);
+}
+.ExtraActImg
+{
+    width: 420px;
+    height: 420px;
+    border-radius: 0px 0px 0px 0px;
+}
 
 .layoutStandardInfo
 {
@@ -244,6 +257,7 @@ header
     flex-direction: column;
 }
 
+
 .Small
 {
     height: 200px;
@@ -253,6 +267,13 @@ header
 {
     height: 130px;
 }
+
+.medium
+{
+    padding: 0%;
+    height: 300px;
+}
+
 .Small .subDivText
 {
     padding: 1%;
@@ -264,6 +285,12 @@ header
     padding: 1%;
     gap: 10px;
 }
+
+.medium .subDivText
+{
+    padding: 1%;
+}
+
 
 .subDivText p
 {
