@@ -5,6 +5,7 @@
     --yellow: #FDC435;
     --white: #FFFFFF;
     --grey:#c7c8ccb0;
+    --brown:#854836;
 }
 
 html
@@ -20,6 +21,7 @@ html
 
 a
 {
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -209,6 +211,7 @@ header
 
 .textBoxImgAbout p
 {
+    
     padding-top: 20px;
     font-size: clamp(20px, 22px, 28px);
 }
@@ -224,11 +227,26 @@ header
 }
 .ExtraActImg
 {
-    width: 420px;
+    width: 500px;
     height: 420px;
     border-radius: 0px 0px 0px 0px;
 }
 
+.robotics 
+{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--white);
+    width: 60%;
+    border-radius: 0px 20px 20px 0px ;
+    box-shadow: 0px 5px 10px 5px var(--grey);
+}
+
+.Y
+{
+    border-left: 20px solid var(--yellow);
+
+}
 .layoutStandardInfo
 {
     display: flex;
@@ -247,6 +265,11 @@ header
     box-shadow: 0px 5px 10px 5px var(--grey);
 }
 
+.subDivMain a :hover
+{
+    color: var(--brown);
+}
+
 .subDivText
 {
     width: 50%;
@@ -256,13 +279,10 @@ header
     display: flex;
     flex-direction: column;
 }
-
-
-.Small
+.subDivText h1
 {
-    height: 200px;
+    font-family: "DM Serif Display", serif;
 }
-
 .Smaller
 {
     height: 130px;
@@ -272,6 +292,11 @@ header
 {
     padding: 0%;
     height: 300px;
+}
+
+.largeW
+{
+    width: 90%;
 }
 
 .Small .subDivText
@@ -303,9 +328,7 @@ header
     position: relative;
     padding: 0%;
     width: 400px;
-    height: 400px;
-    border-radius: 10px;
-    
+    height: 400px; 
 }
 
 
