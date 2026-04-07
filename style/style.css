@@ -197,8 +197,7 @@ header
 .bigImgAbout img
 {
     width: 400px;
-    padding-right: 15px;
-    padding-bottom: 20px;
+  padding: 2%;
 }
 
 .textBoxImgAbout
@@ -228,7 +227,7 @@ header
 .ExtraActImg
 {
     width: 500px;
-    height: 420px;
+    height: 440px;
     border-radius: 0px 0px 0px 0px;
 }
 
@@ -265,7 +264,7 @@ header
     box-shadow: 0px 5px 10px 5px var(--grey);
 }
 
-.subDivMain a :hover
+a :hover
 {
     color: var(--brown);
 }
@@ -338,7 +337,7 @@ header
 {
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 5%;
     width: 20%;
     justify-content: space-between;
 }
@@ -346,6 +345,7 @@ header
 .instaLogo
 {
     width: 50px;
+    height: auto;
 }
 
 .linkedinLogo
@@ -375,7 +375,7 @@ header
 }
 .homeFoot
 {
-    margin-top: 30%;
+    margin-top: 27%;
 }
 .footerImg
 {
@@ -387,7 +387,6 @@ a:hover .instaLogo
 {
     width: 55px;
 }
-
 a:hover .linkedinLogo
 {
     width: 65px;
