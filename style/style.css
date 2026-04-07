@@ -196,15 +196,16 @@ header
 
 .bigImgAbout img
 {
-    width: 400px;
+    width: 30%;
   padding: 2%;
 }
 
 .textBoxImgAbout
 {
     text-align: justify;
+    width: 60%;
     padding: 20px;
-    padding-right: 100px;
+    padding-right: 10px;
     margin-left: 1%;
 }
 
